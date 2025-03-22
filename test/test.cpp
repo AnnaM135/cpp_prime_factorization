@@ -3,8 +3,8 @@
 #include "../src/prime_factorize.h" 
 
 // Test case for 0 and 0
-TEST(PrimeFactorize, HandlesZero)
+TEST(PrimeFactorizeTest, HandlesZero)
 {
-    EXPECT_EQ(0, 0);
+    EXPECT_EQ(primeFactorize(0), {});
 }
 

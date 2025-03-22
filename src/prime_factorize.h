@@ -1,3 +1,1 @@
-#include <vector>
-
-std::vector<int> primeFactorize(int n);
+int primeFactorize(int n);
