@@ -1,4 +1,9 @@
-int primeFactorize(int n)
+#include <vector>
+
+std::vector<int> primeFactorize(int n)
 {
-    return 0;
+    std::vector<int> factors;
+    if(n == 1)
+        factors.push_back(1);
+    return factors;
 }

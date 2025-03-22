@@ -1,7 +1,7 @@
 BUILD_DIR = build
 SOURCE_DIR = src
 TEST_DIR = test
-CFLAGS = -g -Wall -Wextra -Wpedantic 
+CFLAGS = -g -Wall -Wextra -Wpedantic # -Werror
 GTEST_LIB = -lgtest -lgtest_main -lpthread
 
 all: $(BUILD_DIR) main run_tests
